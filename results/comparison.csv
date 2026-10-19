@@ -1,0 +1,9 @@
+﻿scenario,mode,payload_utilization,wire_utilization,mean_delay_ms,max_delay_ms,loss_ratio,backlog_payload_bits
+continuous,circuit,1.0,1.0,2.5,4.0,0.0,0
+continuous,packet,0.796875,1.0,26.147058823529413,40.0,0.08984375,3712
+staggered_burst,circuit,0.4921875,0.4951171875,45.095238095238095,127.0,0.18359375,3936
+staggered_burst,packet,0.75,1.0,1.0,1.0,0.0,0
+synchronized_burst,circuit,0.33984375,0.34375,12.706896551724139,24.0,0.0,1152
+synchronized_burst,packet,0.328125,0.4375,15.357142857142858,32.0,0.0,1536
+light_random,circuit,0.2109375,0.2109375,3.111111111111111,10.0,0.0,0
+light_random,packet,0.2109375,0.28125,1.0972222222222223,2.0,0.0,0
